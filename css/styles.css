@@ -10898,11 +10898,14 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
   }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
+ #sideNav .navbar-brand .img-profile {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  object-fit: cover;         /* Zooms and crops image */
+  object-position: center;   /* Keeps focus on face */
+  border-radius: 50%;        /* Ensures it's circular */
+}
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
