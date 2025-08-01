@@ -10971,9 +10971,4 @@ section.resume-section .resume-section-content {
   }
 }
 
-@media (max-width: 768px) {
-  .resume-section-content .flex-shrink-0 {
-    margin-top: 0.5rem;  /* Reduce space */
-  }
-}
 
