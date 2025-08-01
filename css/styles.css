@@ -10970,3 +10970,10 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .resume-section-content .flex-shrink-0 {
+    margin-top: 0.5rem;  /* Reduce space */
+  }
+}
+
