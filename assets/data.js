@@ -14,7 +14,7 @@ window.SITE_DATA = {
           <li>Hosted demos + GitHub repos</li>
         </ul>
       `,
-      banner: "assets/img/unified-mentor.jpg" // add later
+      banner: "assets/img/unified-mentor.png" 
     },
     {
       slug: "gujarat-dyestuff",
