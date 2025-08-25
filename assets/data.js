@@ -19,7 +19,7 @@ window.SITE_DATA = {
         <h4>Stack</h4>
         <p>Python, Pandas, NumPy, scikit-learn, XGBoost, Prophet, Streamlit, Matplotlib/Plotly, Git/GitHub</p>
       `,
-      banner: "assets/img/unified-mentor.png"
+      banner: "assets/img/unified-banner.png"
     },
     {
       slug: "gujarat-dyestuff",
