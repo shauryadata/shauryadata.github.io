@@ -88,7 +88,7 @@ window.SITE_DATA = {
       long: `<p>Presented insights using Tableau dashboards.</p>`,
       github: "https://github.com/shauryadata/supply-chain-dashboard",
       demo: "",
-      banner: "assets/img/scm-banner.jpg"
+      banner: "assets/img/scm.jpg"
     }
   ]
 };
