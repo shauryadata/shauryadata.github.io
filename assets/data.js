@@ -98,7 +98,7 @@ window.SITE_DATA = {
       `,
       github: "https://github.com/shauryadata/hr-attrition-predictor",
       demo: "",
-      banner: "assets/img/hr-banner.jpg"
+      banner: "assets/img/ibm-banner.jpg"
     },
     {
       slug: "uber-forecast",
