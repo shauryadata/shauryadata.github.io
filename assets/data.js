@@ -29,7 +29,7 @@ window.SITE_DATA = {
           <li>Visualized trends; flagged deviations</li>
         </ul>
       `,
-      banner: "assets/img/gujarat-dyestuff.jpg"
+      banner: "assets/img/gujarat-banner.png"
     },
     {
       slug: "sini-designs",
@@ -43,7 +43,7 @@ window.SITE_DATA = {
           <li>Dashboards reduced material costs by 10–15%</li>
         </ul>
       `,
-      banner: "assets/img/sini-designs.jpg"
+      banner: "assets/img/sini-banner.png"
     }
   ],
   projects: [
@@ -68,7 +68,7 @@ window.SITE_DATA = {
       long: `<p>Deployed model with live predictions and explanations.</p>`,
       github: "https://github.com/shauryadata/hr-attrition-predictor",
       demo: "",
-      banner: "assets/img/hr-banner.jpg"
+      banner: "assets/img/ibm-banner.jpg"
     },
     {
       slug: "uber-forecast",
