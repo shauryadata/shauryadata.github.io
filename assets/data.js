@@ -10,9 +10,9 @@ window.SITE_DATA = {
       long: `
         <h4>What I did</h4>
         <ul>
-          <li>Owned <strong>4 production-style projects</strong> from data prep → modeling → evaluation → delivery.</li>
-          <li>Built <strong>time-series forecasts</strong> (Prophet) and <strong>classification pipelines</strong> (scikit-learn/XGBoost) with clean modular code.</li>
-          <li>Shipped <strong>Streamlit dashboards</strong> for stakeholders to explore scenarios and download results.</li>
+          <li>Owned 4 production-style projects from data prep → modeling → evaluation → delivery.</li>
+          <li>Built time-series forecasts (Prophet) and classification pipelines (scikit-learn/XGBoost) with clean modular code.</li>
+          <li>Shipped Streamlit dashboards for stakeholders to explore scenarios and download results.</li>
           <li>Added tests, README instructions, and reproducible environments; used Git/GitHub for versioning.</li>
           <li>Packaged models as reusable utilities and wrote short post-project write-ups for each.</li>
         </ul>
@@ -30,9 +30,9 @@ window.SITE_DATA = {
       long: `
         <h4>What I did</h4>
         <ul>
-          <li>Analyzed batch histories to <strong>model yield drivers</strong> with pandas + scikit-learn.</li>
-          <li><strong>Automated GMP Excel reports</strong> and QA summaries; reduced manual effort by 2–5 hrs/week.</li>
-          <li>Built visuals for <strong>trend/deviation monitoring</strong> and hand-off to production engineers.</li>
+          <li>Analyzed batch histories to model yield drivers with pandas + scikit-learn.</li>
+          <li>Automated GMP Excel reports and QA summaries; reduced manual effort by 2–5 hrs/week.</li>
+          <li>Built visuals for trend/deviation monitoring and hand-off to production engineers.</li>
         </ul>
         <h4>Stack</h4>
         <p>Python (pandas, scikit-learn), Excel (PowerQuery/VBA where needed), Matplotlib</p>
@@ -48,9 +48,9 @@ window.SITE_DATA = {
       long: `
         <h4>What I did</h4>
         <ul>
-          <li>Developed <strong>pricing & supply-forecasting models</strong> in Python/Excel, feeding weekly planning.</li>
-          <li>Built <strong>Tableau dashboards</strong> to track demand trends and material usage.</li>
-          <li>Presented insights to design & ops; informed changes that helped <strong>reduce material costs by 10–15%</strong>.</li>
+          <li>Developed pricing & supply-forecasting models in Python/Excel, feeding weekly planning.</li>
+          <li>Built Tableau dashboards to track demand trends and material usage.</li>
+          <li>Presented insights to design & ops; informed changes that helped reduce material costs by 10–15%.</li>
         </ul>
         <h4>Stack</h4>
         <p>Python, Excel, Tableau</p>
@@ -69,8 +69,8 @@ window.SITE_DATA = {
         <h4>Highlights</h4>
         <ul>
           <li>Cleaned and explored the titles dataset (genres, year, country, ratings).</li>
-          <li>Engineered <strong>genre vectors</strong> and used <strong>cosine similarity</strong> to rank nearest titles.</li>
-          <li>Built a <strong>Streamlit UI</strong> with filters, title search, and “more like this”.</li>
+          <li>Engineered genre vectors and used cosine similarity to rank nearest titles.</li>
+          <li>Built a Streamlit UI with filters, title search, and “more like this”.</li>
           <li>Documented assumptions and offline evaluation (precision@k on hand-labeled pairs).</li>
         </ul>
         <h4>Stack</h4>
@@ -89,9 +89,9 @@ window.SITE_DATA = {
         <h4>Highlights</h4>
         <ul>
           <li>Preprocessed IBM HR data; handled class imbalance; compared tree-based models.</li>
-          <li>Shipped a <strong>pipeline</strong> (encode → scale → model) with metrics (ROC-AUC, PR-AUC).</li>
-          <li>Added <strong>ELI5 explanations</strong> (feature importance/weights) to improve trust.</li>
-          <li>Deployed a <strong>Streamlit app</strong> for single-employee and batch predictions.</li>
+          <li>Shipped a pipeline (encode → scale → model) with metrics (ROC-AUC, PR-AUC).</li>
+          <li>Added ELI5 explanations (feature importance/weights) to improve trust.</li>
+          <li>Deployed a Streamlit app for single-employee and batch predictions.</li>
         </ul>
         <h4>Stack</h4>
         <p>Python, scikit-learn, ELI5, Streamlit, Pandas, Matplotlib</p>
@@ -109,9 +109,9 @@ window.SITE_DATA = {
         <h4>Highlights</h4>
         <ul>
           <li>Aggregated/cleaned ride counts; engineered calendar, holiday, and weather placeholders.</li>
-          <li>Compared <strong>Prophet</strong> vs. <strong>XGBoost regressors</strong>; combined patterns where useful.</li>
+          <li>Compared Prophet vs. XGBoost regressors; combined patterns where useful.</li>
           <li>Visualized forecasts with confidence ranges; evaluated MAE/MAPE by time-of-week.</li>
-          <li>Produced a simple <strong>ops view</strong> for capacity planning.</li>
+          <li>Produced a simple ops view for capacity planning.</li>
         </ul>
         <h4>Stack</h4>
         <p>Python, Pandas, Prophet, XGBoost, Matplotlib</p>
@@ -128,9 +128,9 @@ window.SITE_DATA = {
       long: `
         <h4>Highlights</h4>
         <ul>
-          <li>Joined procurement, sales, and forecast tables; created <strong>gap KPIs</strong> (over/under supply).</li>
-          <li>Flagged <strong>SKU/region patterns</strong> and seasonality-driven mismatches.</li>
-          <li>Built <strong>Tableau dashboards</strong> with drill-downs (SKU → region → time).</li>
+          <li>Joined procurement, sales, and forecast tables; created gap KPIs (over/under supply).</li>
+          <li>Flagged SKU/region patterns and seasonality-driven mismatches.</li>
+          <li>Built Tableau dashboards with drill-downs (SKU → region → time).</li>
         </ul>
         <h4>Stack</h4>
         <p>Excel, Python (pandas), Tableau</p>
