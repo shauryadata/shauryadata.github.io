@@ -68,16 +68,14 @@ window.SITE_DATA = {
   long: `
     <h4>Highlights</h4>
     <ul>
-      <li>Fine-tuned <strong>ResNet-50</strong> (timm) for multi-class waste categories; robust augments.</li>
-      <li><strong>Test-Time Augmentation (TTA)</strong> to reduce variance; average logits over flips/crops.</li>
-      <li><strong>Abstain logic:</strong> if (top1 − top2) &lt; δ, return “Unsure—please retake/confirm.”</li>
-      <li>Streamlit UI with drag-and-drop, preview, and class probability bars.</li>
-      <li>Deployed demo + clean README for quick reproduce.</li>
+      <li>Fine-tuned ResNet-50 (timm) for multi-class waste categories with robust augmentation.</li>
+<li>Applied Test-Time Augmentation (TTA) to cut variance by averaging logits across flips and crops.</li>
+<li>Abstains when the margin between top-1 and top-2 is below δ - returns "Unsure, please retake/confirm".</li>
+<li>Streamlit UI with drag-and-drop upload, image preview, and class-probability bars.</li>
+<li>Live demo available with a clean README for quick reproduction.</li>
     </ul>
     <h4>Stack</h4>
     <p>PyTorch, timm, torchvision, numpy, Pillow, Streamlit</p>
-    <h4>Notes</h4>
-    <p>Dataset ~4k images (train/val split). Replace δ and class list with your final values/labels.</p>
   `,
   github: "https://github.com/shauryadata/waste-classifier",   // <- update to real repo
   demo: "",                                                     // <- add Streamlit link if/when live
