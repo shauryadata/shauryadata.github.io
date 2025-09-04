@@ -61,6 +61,29 @@ window.SITE_DATA = {
 
   projects: [
     {
+  slug: "waste-classifier",
+  title: "Waste Classifier (ResNet-50, TTA, Abstain)",
+  subtitle: "PyTorch, timm, Streamlit",
+  short: "Image classifier with ResNet-50 + test-time augmentation; ‘abstains’ when top-2 are too close.",
+  long: `
+    <h4>Highlights</h4>
+    <ul>
+      <li>Fine-tuned <strong>ResNet-50</strong> (timm) for multi-class waste categories; robust augments.</li>
+      <li><strong>Test-Time Augmentation (TTA)</strong> to reduce variance; average logits over flips/crops.</li>
+      <li><strong>Abstain logic:</strong> if (top1 − top2) &lt; δ, return “Unsure—please retake/confirm.”</li>
+      <li>Streamlit UI with drag-and-drop, preview, and class probability bars.</li>
+      <li>Deployed demo + clean README for quick reproduce.</li>
+    </ul>
+    <h4>Stack</h4>
+    <p>PyTorch, timm, torchvision, numpy, Pillow, Streamlit</p>
+    <h4>Notes</h4>
+    <p>Dataset ~4k images (train/val split). Replace δ and class list with your final values/labels.</p>
+  `,
+  github: "https://github.com/shauryadata/waste-classifier",   // <- update to real repo
+  demo: "",                                                     // <- add Streamlit link if/when live
+  banner: "assets/img/waste-classifier.jpg"                     
+},
+    {
       slug: "netflix",
       title: "Netflix Movie Recommendation System",
       subtitle: "Python, Pandas, Streamlit",
